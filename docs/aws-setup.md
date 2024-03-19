@@ -6,7 +6,9 @@ This guide walks you through the process of setting up your AWS environment and 
 
 1. Navigate to the [AWS Management Console](https://aws.amazon.com/console/).
 2. Log in using your AWS account credentials.
+   
    ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/86a41007-f48f-4724-8b77-0d9db9d4a8ee)
+   
 
 ## Step 2: Access the EC2 Dashboard
 
