@@ -104,4 +104,31 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': f"Successfully inserted metric data for instance {instance_id}"
     }
+```
+
+
+
+## Step 5: Deploy and Test
+
+- **Save and Deploy**: Back in the Lambda function editor, click "Deploy" to save your code.
+- **Test**: Click the "Test" button to create a new test event. You don't need to modify the default template for the test event because the function doesn't use event input. Name your test event and click "Save changes", then "Test" to execute your function.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/2fe5149f-728b-493c-9234-306e99d76338)
+
+- **Verify**: Check your DynamoDB table to see if the new entry was added. Also, review the execution logs in the Lambda console for any errors or success messages.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/3e5fe6ad-8bc1-406a-b182-610b83117e16)
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/0ecd2169-4f63-43f6-991a-7bcff5a23d15)
+
+
+  
+
+
+
+## Step 6: Schedule Execution (Optional)
+
+To run your Lambda function automatically at a defined interval (e.g., every minute):
+
+- **Amazon EventBridge (CloudWatch Events)**: Go to the Amazon EventBridge (formerly CloudWatch Events) service in the AWS Management Console.
+- **Create Rule**: Click "Create rule", set a name and description. For "Define pattern", select "Schedule" and define your desired schedule expression, e.g., `rate(1 minute)`.
+- **Select Target**: Choose "Lambda function" as the target and select your Lambda function from the list.
+- **Configure Details and Create**: Confirm the details and click "Create rule".
 
