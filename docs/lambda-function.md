@@ -136,4 +136,4 @@ To run your Lambda function automatically at a defined interval (e.g., every min
    ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/baddf119-6234-47dc-a7bd-4179aeba03f7)
    
 - **Configure Details and Create**: Confirm the details and click "Create rule".
-
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/cb609542-3124-41b9-8399-e3f1a81f2594)
