@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project sets up a comprehensive monitoring and alerting system for AWS EC2 instances, leveraging AWS CloudWatch, SNS, Lambda, and DynamoDB. It aims to automate infrastructure provisioning with Terraform and configuration with Ansible for scalable cloud resource management.
+This project sets up a comprehensive monitoring and alerting system for AWS EC2 instances, leveraging AWS CloudWatch, SNS, Lambda, and DynamoDB. 
 
 ## Features
 
@@ -15,8 +15,7 @@ This project sets up a comprehensive monitoring and alerting system for AWS EC2 
 2.	Alerting Mechanism: Configuration of threshold-based alerts for monitored metrics to ensure proactive issue detection and resolution.
 3.	Data Collection and Storage: A mechanism to collect metrics data at one-minute intervals, formatted into JSON documents and stored in DynamoDB for historical analysis.
 4.	Weekly Summary Reports: An automated report generated and emailed weekly, summarizing the high, low, and average values of the monitored metrics.
-5.	Automation Framework: Utilization of Terraform for infrastructure provisioning and Ansible for configuration management, enabling scalable and repeatable deployments.
-6.	Error Logging and Notification: Implementation of error logging for the automation scripts and monitoring system, with notifications for critical errors.
+
 
 
 ## Getting Started
