@@ -3,21 +3,32 @@
 ## Step 1: Navigate to CloudWatch
 
 - Find and select **CloudWatch** under the **Management & Governance** category.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/3e97e543-3ffe-405a-ad5e-f2a60b48f72d)
+
 
 ## Step 2: Create a Dashboard
 
 - Click on **Dashboards** in the left navigation pane.
 - Click **Create dashboard**.
-- Name your dashboard `EC2MonitoringDashboard` and click **Create dashboard**.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/d72534c9-0fc7-4d11-b1d3-3ce5a0929915)
+
+
+- Name your dashboard (I'll be naming as `EC2MonitoringDashboard`) and click **Create dashboard**.
 
 ## Step 3: Add Metrics to Your Dashboard
 
 - Click **Add widget**.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/b013ecbf-306e-40fd-b621-59a5b7baf5a7)
+
 - Choose the type of widget and click **Configure**. For EC2 metrics, select the **EC2** namespace, then **Per-Instance Metrics**.
 - Choose the instance and metric you want to monitor. For this project, include all three instances per metric in one widget (since it’s easy to compare).
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/1b7eb2ef-44e9-412b-b747-9dbb8b57e597)
+
 - After selecting the metrics, click **Create widget**.
 - Specifically, monitor the **CPUUtilization**, **DiskReadBytes**, and **NetworkIn** metrics from the natively provided metrics in CloudWatch.
 - Repeat this process to add additional metrics for the EC2 instances to the dashboard.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/dcd16f64-1568-470a-b027-49caaa953fdc)
+
 
 ## Step 4: Create Alarms for Critical Metrics
 
