@@ -116,11 +116,7 @@ def lambda_handler(event, context):
 
 - **Verify**: Check your DynamoDB table to see if the new entry was added. Also, review the execution logs in the Lambda console for any errors or success messages.
   ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/3e5fe6ad-8bc1-406a-b182-610b83117e16)
-  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/0ecd2169-4f63-43f6-991a-7bcff5a23d15)
-
-
-  
-
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/0cebc244-d4e0-4cbf-a1bf-ccb862120b2f)
 
 
 ## Step 6: Schedule Execution (Optional)
