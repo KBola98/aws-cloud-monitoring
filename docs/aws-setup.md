@@ -36,11 +36,20 @@ This guide walks you through the process of setting up your AWS environment and 
 
 ## Connecting to Your Instance via SSH
 
-Once the instance is running, you can connect to it using SSH:
+In this project, I will use the EC2 Instance connect to connect from the Browser.
+   ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/7a1d27f3-3b14-4287-a75e-970de8f6261c)
+
+
+But to connect via SSH, follow the below:
 
 1. The AWS Console provides the public DNS or IP address and the connection instructions.
 2. Use an SSH client with the private key from the key pair you selected or created during the instance setup.
 3. Connect to your instance using a command like:
-
+   
 ```bash
 ssh -i /path/to/your-key.pem ec2-user@your-instance-public-dns
+
+   
+
+
+
