@@ -36,8 +36,12 @@ Your DynamoDB table needs to be properly set up to store the metrics you plan to
 3. **Function Code**:
    - Your Lambda function will collect metrics such as CPUUtilization, format the data into a JSON document, and insert the JSON document into the DynamoDB table you created.(Copy and paste it for Lambda_function section)
      ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/99abcbcd-4240-476d-a7ae-916e6740b2c4)
+   - Once the function is created, you'll be taken to the function's configuration page.
+   - Scroll to the "Code" section. Here, you'll see an online code editor.
+   - Copy the Python code provided in the previous message and paste it into the online code editor. Make sure to replace placeholders like 'YOUR_INSTANCE_ID' and 'YourDynamoDBTableName' with 
+     actual values relevant to your AWS environment.
 
- ( You need to replace 'YourDynamoDBTableName' with the actual name of your DynamoDB table.)  
+
 ```python
 import boto3
 from datetime import datetime
