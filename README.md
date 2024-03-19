@@ -16,6 +16,8 @@ This project sets up a comprehensive monitoring and alerting system for AWS EC2 
 3.	Data Collection and Storage: A mechanism to collect metrics data at one-minute intervals, formatted into JSON documents and stored in DynamoDB for historical analysis.
 4.	Weekly Summary Reports: An automated report generated and emailed weekly, summarizing the high, low, and average values of the monitored metrics.
 
+## Architecture Diagram
+![Architecture Diagram](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/2cca0281-13c0-4e47-bca4-b7ee0669de7b)
 
 
 ## Getting Started
