@@ -119,12 +119,21 @@ def lambda_handler(event, context):
   ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/0cebc244-d4e0-4cbf-a1bf-ccb862120b2f)
 
 
-## Step 6: Schedule Execution (Optional)
+## Step 6: Schedule Execution of the Lambda function to collect 1 min Metric data
 
 To run your Lambda function automatically at a defined interval (e.g., every minute):
 
-- **Amazon EventBridge (CloudWatch Events)**: Go to the Amazon EventBridge (formerly CloudWatch Events) service in the AWS Management Console.
-- **Create Rule**: Click "Create rule", set a name and description. For "Define pattern", select "Schedule" and define your desired schedule expression, e.g., `rate(1 minute)`.
+- **Amazon EventBridge**: Go to the Amazon EventBridge service in the AWS Management Console.
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/888fc69d-4424-4790-8d2f-5f4d785afb56)
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/83630701-08ac-47ad-9f9a-cd0b13e671d7)
+
+
+- **Create Rule**: Click "Create rule", set a name and description. For "Define pattern", select "Schedule" and define your desired schedule expression.
+   ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/c0d7436e-136d-450b-874e-fbbeeb92f624)
+  ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/754707b4-a9b5-49b3-963f-ccb7543dc952)
+
 - **Select Target**: Choose "Lambda function" as the target and select your Lambda function from the list.
+   ![image](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/baddf119-6234-47dc-a7bd-4179aeba03f7)
+   
 - **Configure Details and Create**: Confirm the details and click "Create rule".
 
