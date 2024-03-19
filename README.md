@@ -25,9 +25,8 @@ Follow the steps outlined in the documentation to set up and configure your moni
 
 1. [AWS Setup](docs/aws-setup.md) - Setting up AWS services and EC2 instances.
 2. [CloudWatch Monitoring and SNS Alert Configuration](docs/cloudwatch-sns-setup.md) - Configuring monitoring, alarms (thresholds 60% - Amber, 80% - Red) and SNS notifications for alerting.
-3. [SNS Notifications](docs/sns-notifications.md) - Setting up alert notifications.
-4. [Lambda Functions](docs/lambda-functions.md) - Implementing data processing and storage.
-5. [Terraform Automation](docs/terraform-automation.md) - Automating infrastructure provisioning.
-6. [Ansible Configuration](docs/ansible-configuration.md) - Automating system configuration.
+3. [Lambda Functions](docs/lambda-functions.md) - Implementing data processing and storage.
+4. [Terraform Automation](docs/terraform-automation.md) - Automating infrastructure provisioning.
+5. [Ansible Configuration](docs/ansible-configuration.md) - Automating system configuration.
 
 
