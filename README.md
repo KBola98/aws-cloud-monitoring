@@ -17,9 +17,7 @@ This project sets up a comprehensive monitoring and alerting system for AWS EC2 
 4.	Weekly Summary Reports: An automated report generated and emailed weekly, summarizing the high, low, and average values of the monitored metrics.
 
 ## Architecture Diagram
-![Architecture Diagram](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/0ee1a56f-da4b-4ee7-a976-3edda8d2e06c)
-
-
+![Architecture Diagram](https://github.com/KBola98/aws-cloud-monitoring/assets/52285719/71d0a807-e15f-46fa-a908-7bed47573136)
 
 
 
